@@ -1,0 +1,21 @@
+{
+    "name": "reisraff/phulp-dest",
+    "description": "The dest addon for phulp",
+    "keywords": ["phulpplugin", "phulp", "php", "dest"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rafael Reis",
+            "email": "reisraff@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Phulp\\Dest\\" : "src"
+        }
+    },
+    "require": {
+        "reisraff/phulp": "~1.7"
+    }
+}
