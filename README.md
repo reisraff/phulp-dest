@@ -17,6 +17,7 @@ use Phulp\Dest\Dest;
 
 $phulp->task('dest', function ($phulp) {
     $phulp->src(['src/'], '/html$/')
+        // write your files for "path/"
         ->pipe(new Dest('path/'));
 });
 

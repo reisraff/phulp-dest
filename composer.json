@@ -1,7 +1,7 @@
 {
     "name": "reisraff/phulp-dest",
-    "description": "The dest addon for phulp",
-    "keywords": ["phulpplugin", "phulp", "php", "dest"],
+    "description": "Write your files for any destination",
+    "keywords": ["phulpplugin", "phulp", "php", "dest", "move"],
     "license": "MIT",
     "type": "library",
     "authors": [
